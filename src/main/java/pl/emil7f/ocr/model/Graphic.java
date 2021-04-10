@@ -6,7 +6,7 @@ import javax.persistence.*;
 public class Graphic {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long id;
     private String url;
     private String content;
