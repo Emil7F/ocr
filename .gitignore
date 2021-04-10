@@ -1,5 +1,7 @@
 
 
+db.mv.db
+db.trace.db
 
 .mvn/
 mvnw
